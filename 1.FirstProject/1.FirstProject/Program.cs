@@ -13,7 +13,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseWelcomePage();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -21,6 +20,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseDeveloperExceptionPage();
 app.MapRazorPages();
 
 app.Run();
