@@ -6,7 +6,8 @@ public class ToDoItemModel : PageModel
 {
     public List<string> Tasks { get; set; }
     public string Title { get; set; }
-
+    public bool IsComplete { get; set; } = true;
+    
     public void OnGet()
     {
         Title = "Tasks for today";
