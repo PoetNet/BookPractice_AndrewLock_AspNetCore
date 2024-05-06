@@ -3,17 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.FirstProject", "1.FirstProject\1.FirstProject.csproj", "{302C14B0-B8F5-436F-9082-F5003CC16ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.FirstProject", "1.FirstProject\1.FirstProject.csproj", "{302C14B0-B8F5-436F-9082-F5003CC16ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ImplementRazor", "2.ImplementRazor\2.ImplementRazor.csproj", "{77AD276D-731D-43F9-8139-823114739CCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.ImplementRazor", "2.ImplementRazor\2.ImplementRazor.csproj", "{77AD276D-731D-43F9-8139-823114739CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.RazorTemplates", "7.RazorTemplates\7.RazorTemplates.csproj", "{1C211605-0222-4392-ACCE-C2F6AE5C3A4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{302C14B0-B8F5-436F-9082-F5003CC16ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +23,15 @@ Global
 		{77AD276D-731D-43F9-8139-823114739CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77AD276D-731D-43F9-8139-823114739CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77AD276D-731D-43F9-8139-823114739CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C211605-0222-4392-ACCE-C2F6AE5C3A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C211605-0222-4392-ACCE-C2F6AE5C3A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C211605-0222-4392-ACCE-C2F6AE5C3A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C211605-0222-4392-ACCE-C2F6AE5C3A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD30B89B-8176-4399-9E64-E956DE38E755}
 	EndGlobalSection
 EndGlobal
